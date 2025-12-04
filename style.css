@@ -1,0 +1,58 @@
+body {
+
+    background-color: #759abf; /* Fundo escuro */
+
+    color: #ecf0f1; /* Texto claro */
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    min-height: 100vh;
+
+}
+
+.clock-container {
+
+    background: rgba(0, 0, 0, 0.2);
+
+    padding: 40px 60px;
+
+    border-radius: 15px;
+
+    box-shadow: 0 0 30px rgba(193, 198, 40, 0.5);
+
+}
+
+#clock {
+
+    font-family: 'Courier New', Courier, monospace;
+
+    font-size: 5rem; /* Tamanho grande */
+
+    font-weight: bold;
+
+    letter-spacing: 5px;
+
+    text-shadow: 0 0 10px rgba(236, 240, 241, 0.5);
+
+}
+
+ 
+
+/* Media query para telas menores */
+
+@media (max-width: 600px) {
+
+    #clock {
+
+        font-size: 3rem;
+
+        padding: 20px 30px;
+
+    }
+
+}
+
